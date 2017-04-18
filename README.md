@@ -1,9 +1,14 @@
-# api documentation for  [ember-cli-document-title (v0.3.3)](https://github.com/kimroen/ember-cli-document-title)  [![npm package](https://img.shields.io/npm/v/npmdoc-ember-cli-document-title.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-ember-cli-document-title) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-ember-cli-document-title.svg)](https://travis-ci.org/npmdoc/node-npmdoc-ember-cli-document-title)
+# npmdoc-ember-cli-document-title
+
+#### api documentation for  [ember-cli-document-title (v0.3.3)](https://github.com/kimroen/ember-cli-document-title)  [![npm package](https://img.shields.io/npm/v/npmdoc-ember-cli-document-title.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-ember-cli-document-title) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-ember-cli-document-title.svg)](https://travis-ci.org/npmdoc/node-npmdoc-ember-cli-document-title)
+
 #### Adding document title functionality to your ember app
 
-[![NPM](https://nodei.co/npm/ember-cli-document-title.png?downloads=true)](https://www.npmjs.com/package/ember-cli-document-title)
+[![NPM](https://nodei.co/npm/ember-cli-document-title.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/ember-cli-document-title)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-ember-cli-document-title/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-ember-cli-document-title_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-ember-cli-document-title/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-ember-cli-document-title/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-ember-cli-document-title/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-ember-cli-document-title/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-ember-cli-document-title/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-ember-cli-document-title/build/screenCapture.npmPackageListing.svg)
 
@@ -17,8 +22,7 @@
 
 {
     "author": {
-        "name": "Kim Røen",
-        "email": "kim@kimroen.com"
+        "name": "Kim Røen"
     },
     "bugs": {
         "url": "https://github.com/kimroen/ember-cli-document-title/issues"
@@ -69,13 +73,11 @@
     "main": "index.js",
     "maintainers": [
         {
-            "name": "kimroen",
-            "email": "kim@kimroen.com"
+            "name": "kimroen"
         }
     ],
     "name": "ember-cli-document-title",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/kimroen/ember-cli-document-title.git"
@@ -87,35 +89,6 @@
     },
     "version": "0.3.3"
 }
-```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module ember-cli-document-title](#apidoc.module.ember-cli-document-title)
-1.  [function <span class="apidocSignatureSpan">ember-cli-document-title.</span>included (app)](#apidoc.element.ember-cli-document-title.included)
-1.  string <span class="apidocSignatureSpan">ember-cli-document-title.</span>name
-
-
-
-# <a name="apidoc.module.ember-cli-document-title"></a>[module ember-cli-document-title](#apidoc.module.ember-cli-document-title)
-
-#### <a name="apidoc.element.ember-cli-document-title.included"></a>[function <span class="apidocSignatureSpan">ember-cli-document-title.</span>included (app)](#apidoc.element.ember-cli-document-title.included)
-- description and source-code
-```javascript
-included = function (app) {
-  // see: https://github.com/ember-cli/ember-cli/issues/3718
-  if (typeof app.import !== 'function' && app.app) {
-    app = app.app;
-  }
-
-  app.import('vendor/document-title/document-title.js');
-}
-```
-- example usage
-```shell
-n/a
 ```
 
 

@@ -1,6 +1,6 @@
 # npmdoc-ember-cli-document-title
 
-#### api documentation for  [ember-cli-document-title (v0.3.3)](https://github.com/kimroen/ember-cli-document-title)  [![npm package](https://img.shields.io/npm/v/npmdoc-ember-cli-document-title.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-ember-cli-document-title) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-ember-cli-document-title.svg)](https://travis-ci.org/npmdoc/node-npmdoc-ember-cli-document-title)
+#### basic api documentation for  [ember-cli-document-title (v0.3.3)](https://github.com/kimroen/ember-cli-document-title)  [![npm package](https://img.shields.io/npm/v/npmdoc-ember-cli-document-title.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-ember-cli-document-title) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-ember-cli-document-title.svg)](https://travis-ci.org/npmdoc/node-npmdoc-ember-cli-document-title)
 
 #### Adding document title functionality to your ember app
 
@@ -87,7 +87,8 @@
         "start": "ember server",
         "test": "ember try:each"
     },
-    "version": "0.3.3"
+    "version": "0.3.3",
+    "bin": {}
 }
 ```
 
